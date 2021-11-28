@@ -1,1 +1,7 @@
 /* viewport devices */
+@media only screen and (max-width: 720px) {
+    li a{
+        display: block;
+        padding:10px;
+    }
+  }
