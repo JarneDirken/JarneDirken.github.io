@@ -25,24 +25,34 @@ footer, #content-wrap::after{
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:aquamarine;
+    background-color:aqua;
     padding:15px;
 }
-li {
-    display: inline;
+nav ul:hover li:not(:hover) a {
+    opacity: 0.3;
 }
-li a{
+nav ul li {
+    display: inline;
+    position: relative;
+    padding: 30px 25px 30px 25px;
+    cursor: pointer;
+}
+nav li a{
     color: #000;
+    position: relative;
     text-align: center;
     padding:50px;
     text-decoration: none;
 }
-
+nav li:hover {
+    background-color:aquamarine;
+    padding:15px;
+}
 h1 {
     text-align:center;
 }
@@ -50,4 +60,18 @@ h1 {
 footer {
     text-align:center;
     background-color:blue;
+}
+.box{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.footer_links, .footer_links::after{
+    color:inherit;
+    text-decoration: none;
+}
+.pexels{
+    width: 20px;
+    height: 20px;
+    padding:10px;
 }
