@@ -1,7 +1,12 @@
 /* viewport devices */
 @media only screen and (max-width: 720px) {
-    li a{
+    nav ul li{
         display: block;
-        padding:10px;
+        padding:5px;
+        margin:2px;
+        overflow: hidden;
+    }
+    nav ul{
+        text-align:center;
     }
   }

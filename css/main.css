@@ -25,36 +25,27 @@ footer, #content-wrap::after{
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:aqua;
+nav ul{
     padding:15px;
+    background-color: aquamarine;
 }
-nav ul:hover li:not(:hover) a {
-    opacity: 0.3;
-}
-nav ul li {
+nav ul li{
     display: inline;
-    position: relative;
-    padding: 30px 25px 30px 25px;
-    cursor: pointer;
-}
-nav li a{
-    color: #000;
-    position: relative;
-    text-align: center;
-    padding:50px;
-    text-decoration: none;
-}
-nav li:hover {
-    background-color:aquamarine;
     padding:15px;
+    overflow: auto;
+}
+nav ul li:hover{
+    background-color: aqua;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
 }
 h1 {
     text-align:center;
+}
+.ul-page{
+    margin-left:40px;
 }
 
 footer {
