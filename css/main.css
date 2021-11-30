@@ -25,6 +25,12 @@ footer, #content-wrap::after{
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+nav{
+    overflow: hidden;
+}
+.icon{
+    display:none;
+}
 nav ul{
     padding:15px;
     background-color: aquamarine;
@@ -66,3 +72,7 @@ footer {
     height: 20px;
     padding:10px;
 }
+.icon {
+    display: none;
+  }
+
