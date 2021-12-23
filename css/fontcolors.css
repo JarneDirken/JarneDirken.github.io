@@ -1,1 +1,9 @@
 /* all devices font colors */
+
+.fonts_dot{
+        border:none;
+        border-top:3px dashed #000;
+        color:#000;
+        height:2px;
+        width:100%;
+}

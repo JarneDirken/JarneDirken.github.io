@@ -1,4 +1,4 @@
-/* all devices */
+/* all devices main */
 *{
     margin:0;
     padding:0;
@@ -13,7 +13,7 @@ html, body{
 #content-wrap{
     min-height: 100vh;
     margin-bottom: -4rem;
-    background-color:burlywood;
+    background-color:#dce0e0;
 }
 #content-wrap::after{
     content:"";
