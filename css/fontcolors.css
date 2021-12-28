@@ -1,9 +1,101 @@
 /* all devices font colors */
-
 .fonts_dot{
         border:none;
         border-top:3px dashed #000;
         color:#000;
         height:2px;
         width:100%;
+}
+.subtitles{
+        margin-left: 1em;
+}
+.under-article{
+        margin: 1em 0em 1em 6em;
+}
+.box-colors{
+        margin-left: 5em;
+        max-width: 35%;
+        background-color:#fff;
+        border: 1px solid #000;
+        padding:30px 5px 20px 10px;
+        border-radius: 10px;
+}
+/* all differnt fonts */
+@font-face {
+        font-family: Elegance;
+        src: url(../fonts/Precious.ttf);
+}
+@font-face {
+        font-family: Trendy;
+        src: url(../fonts/Callista.otf)
+}
+.font-broadtarget{
+        font-family: Arial, Helvetica, sans-serif;
+}
+.font-elegance{
+        font-family: Elegance;
+}
+.font-trendy{
+        font-family: Trendy;
+}
+/* all different colors */
+@font-face {
+        font-family: Cheap;
+        src: url(../fonts/Junkyard.ttf)
+}
+@font-face {
+        font-family: Luxury;
+        src: url(../fonts/Bertille.ttf)
+}
+@font-face {
+        font-family: Young;
+        src: url(../fonts/Young\ and\ Beautiful\ -\ TTF.ttf)
+}
+.color-neutral{
+        background-color: lightblue;
+        font-family: Verdana, Arial, Helvetica;
+}
+.color-cheap{
+        margin-left: 5em;
+        max-width: 35%;
+        background-color:#fff;
+        border: 5px solid yellow;
+        padding:30px 5px 20px 10px;
+        box-shadow:5px 5px blue;
+        font-family: Cheap;
+}
+.cheap{
+        color:#fff;
+        background-color: red;
+}
+.color-luxury{
+        font-family: Luxury;
+        margin-left: 5em;
+        max-width: 35%;
+        background-color:#eee;
+        border: 1px solid #ccc;
+        box-shadow: 5px 5px #0f0f0f;
+        padding:30px 5px 20px 10px;
+}
+.luxury{
+        text-align: center;
+}
+.color-young{
+        font-family: Young;
+        margin-left: 5em;
+        max-width: 35%;
+        background-color:#000;
+        border: 1px solid #000;
+        padding:30px 5px 20px 10px;
+        color:#fff;
+        border-radius: 10px;
+}
+.color-basedphoto{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 5em;
+        max-width: 35%;
+        background-color:#d9d0c1;
+        border: 20px solid #000;
+        border-left-color: #364015;
+        padding:30px 5px 20px 10px;
 }

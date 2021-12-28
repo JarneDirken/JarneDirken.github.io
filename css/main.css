@@ -58,6 +58,15 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
+/* lil margin */
+.lil-margin{
+    margin-left: 5px;
+}
+/* font colors */
+.right{
+    text-align: right;
+    margin:1em;
+}
 /*footer*/
 footer {
     text-align:center;
