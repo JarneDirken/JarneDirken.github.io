@@ -25,6 +25,10 @@
 }
 /* all differnt fonts */
 @font-face {
+        font-family: RaleWay;
+        src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+@font-face {
         font-family: Elegance;
         src: url(../fonts/Precious.ttf);
 }
@@ -33,7 +37,7 @@
         src: url(../fonts/Callista.otf)
 }
 .font-broadtarget{
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: RaleWay;
 }
 .font-elegance{
         font-family: Elegance;

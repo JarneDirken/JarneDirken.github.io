@@ -19,11 +19,17 @@
     }
     .table_images{
         display:block;
-        border:none;
         margin-left: auto;
         margin-right: auto;
     }
     .img_caption{
-      text-align: right;
+      text-align: center;
+  }
+    th, td{
+    border: 1px solid #000;
+  border-collapse: collapse;
+  }
+  #content-wrap{
+    background-color:#dce0e0;
   }
 }

@@ -53,11 +53,6 @@ h1 {
 .ul-page, .ol-page{
     margin-left:40px;
 }
-.retro, th, td {
-    padding: 5px;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
 /* lil margin */
 .lil-margin{
     margin-left: 5px;
@@ -91,4 +86,8 @@ footer {
   }
 .home_img{
     float: left;
+}
+.home_img_retro{
+    float:left;
+    filter: hue-rotate(190px), brightness(1.4px), contrast(1px), grayscale(0)
 }
