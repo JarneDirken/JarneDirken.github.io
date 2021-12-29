@@ -53,7 +53,7 @@ h1 {
 .ul-page, .ol-page{
     margin-left:40px;
 }
-table, th, td {
+.retro, th, td {
     padding: 5px;
     border: 1px solid black;
     border-collapse: collapse;
@@ -89,4 +89,6 @@ footer {
 .icon {
     display: none;
   }
-
+.home_img{
+    float: left;
+}

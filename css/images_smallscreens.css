@@ -1,0 +1,29 @@
+@media only screen and (max-width: 720px) {
+    .middle{
+      margin-top:2em;
+      margin-bottom: 2em;
+      margin-left:0;
+      background-color: #dce0e0;
+      border:none;
+      border-radius:0;
+    }
+    .img_imageshtml{
+        border-radius: 2px;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article_img{
+        display: none;
+    }
+    .table_images{
+        display:block;
+        border:none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img_caption{
+      text-align: right;
+  }
+}

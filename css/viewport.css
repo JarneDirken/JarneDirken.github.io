@@ -1,14 +1,5 @@
 /* viewport devices */
 @media only screen and (max-width: 720px) {
-    /* .site-nav a:not(:first-child){
-        display:none;
-    }
-    .site-nav a.icon{
-        float: right;
-        display: block;
-    } */
-  }
-@media only screen and (max-width: 720px) {
     html, body {
         position: relative;
         margin: 0;
@@ -23,19 +14,6 @@
         width: 100%;
         height: 100%;
       }
-    /* .site-nav.responsive{
-        position: relative;
-    }
-    .site-nav.responsive .icon{
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .site-nav.responsive a{
-        float: none;
-        display: block;
-        text-align: left;
-    } */
     nav ul{
         text-align:center;
     }
@@ -46,3 +24,4 @@
         overflow: hidden;
     }
   }
+  

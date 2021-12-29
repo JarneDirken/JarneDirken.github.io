@@ -1,0 +1,35 @@
+/*images.html*/
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Black.ttf);
+}
+.middle{
+    margin-top:2em;
+    font-family: Lato;
+    background-color: #fff;
+    max-width: 50%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-left:25%;
+    margin-bottom: 2em;
+}
+.img_imageshtml{
+    border: 5px solid #dce0e0;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:35%;
+}
+.img_caption{
+    text-align: center;
+}
+.table_images, .hidden, .print{
+    display: none;
+}
+.left{
+    text-align: right;
+}
+.right{
+    text-align:center;
+}

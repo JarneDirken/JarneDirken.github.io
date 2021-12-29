@@ -1,0 +1,106 @@
+/*toptech small screens*/
+@font-face {
+    font-family: RaleWay;
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+.toptech_img, .ptag{
+    display:none;
+}
+#content-wrap, footer{
+    background-color:#000;
+}
+h1, footer{
+    color:#fff;
+}
+.smallscreen{
+    margin-top:2em;
+    margin-bottom: 2em;
+    font-family: RaleWay;
+    background-color: #313333;
+    color:#fff;
+}
+.toptech_atag, .toptech_atag:visited{
+    color:lightblue;
+}
+#icon{
+    list-style: none;
+}
+.li_icon:before{
+    content: "➙";
+    display: block;
+    float: left;
+}
+.python{
+    list-style-image: url(../icon/pycharm.png);
+}
+.htmlcss{
+    list-style-image: url(../icon/html.png);
+}
+.cpp{
+    list-style-image: url(../icon/c++.png);
+}
+.vs{
+    list-style-image: url(../icon/vs.png);
+}
+.pycharm{
+    list-style-image: url(../icon/pycharm.png);
+}
+.brackets{
+    list-style-image: url(../icon/brackets.png);
+}
+.youtube{
+    list-style-image: url(../icon/youtube.png);
+}
+.ol-page li a, .ol-page li a:visited, .home, .home:visited {
+    color:lightblue;
+}
+.ol-page li a:hover, .home:hover{
+    color:lightgoldenrodyellow;
+}
+.symmetry{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    border-radius: 50%;
+}
+.symmetry:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+/*toptech normal screens*/
+@media only screen and (min-width: 840px){
+    .toptech_img{
+        display:block;
+    }
+    .ptag{
+        display:block;
+        border:none;
+    }
+    .symmetry{
+        display: none;
+    }
+    .wrap{
+        max-width: 800px;
+        border: 3px solid red;
+        margin-left:2em;
+    }
+}
+/*toptech large screens*/
+@media only screen and (min-width: 960px){
+    .toptech_img{
+        display:none;
+    }
+    .wrap{
+        border:none;
+    }
+    .smallscreen{
+        max-width: 600px;
+        margin-left:auto;
+        margin-right: auto;
+        background-color:#000;
+        opacity: .7;
+    }
+    #content-wrap{
+        background-image: url(../images/pexels-eberhard-grossgasteiger-darkbackground.jpg);
+    }
+    
+}
