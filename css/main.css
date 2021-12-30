@@ -88,6 +88,7 @@ footer {
     float: left;
 }
 .home_img_retro{
-    float:left;
-    filter: hue-rotate(190px), brightness(1.4px), contrast(1px), grayscale(0)
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
