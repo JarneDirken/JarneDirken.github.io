@@ -31,7 +31,7 @@ h1, footer{
     float: left;
 }
 .python{
-    list-style-image: url(../icon/pycharm.png);
+    list-style-image: url(../icon/python.png);
 }
 .htmlcss{
     list-style-image: url(../icon/html.png);
