@@ -3,6 +3,10 @@
     font-family: Barlow;
     src: url(../fonts/Barlow-Regular.ttf);
 }
+@font-face {
+    font-family: BarlowLight;
+    src: url(../fonts/Barlow-Light.ttf);
+}
 #content-wrap{
     font-family: Barlow;
     background:
@@ -69,6 +73,18 @@
 .group{
     background-color:#dce0e0;
 }
+.fitin{
+    border:none;
+    border-top:2px solid black;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.quote{
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: BarlowLight;
+}
 /*index Bigger screens*/
 @media only screen and (min-width: 576px){
     .important{
@@ -91,5 +107,29 @@
     .title{
         display:block;
         border:none;
+    }
+    .pattern_img{
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom:1em;
+    }
+    .fitin{
+        border:none;
+        border-top:2px solid black;
+        width: 40%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .quote{
+        text-align: center;
+        white-space: pre-wrap;
+        font-family: BarlowLight;
+    }
+    .animation {
+        animation: roll 3s;
+    }
+    @keyframes roll {
+        to { transform: translateX(1px) rotate(360deg); }
     }
 }
