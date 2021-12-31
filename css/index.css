@@ -136,8 +136,10 @@
     @keyframes roll {
         to { transform: translateX(1px) rotate(360deg); }
     }
-    .pattern_img{
+    .pattern_img:hover{
         transform: skewY(10deg);
+    }
+    .pattern_img{
         width: 100px;
         height: 100px;
         position: relative;
